@@ -1,0 +1,48 @@
+html{
+   font-size: 14px;
+   font-family:'Source-Han-Ligh10fdcb05f71c447';
+   color: #393e46
+}
+
+h1{
+   font-size: 35px;
+   text-align: center;
+}
+
+p,li{
+   font-size: 14px;
+   line-heigh: 2;
+   letter-spacing: 1px;
+}
+
+html{
+   background-color: #222831;
+}
+
+body{
+   width: 600px;
+   margin: 0 auto;
+   background-color: #eeeeee;
+   padding: 20px;
+   border: 5px solid #00adb5;
+}
+
+h1{
+   margin: 0;
+   padding: 20px 0;
+   text-shadow: 1px 1px 3px #222831;
+}
+
+p{
+   padding: 0 50px;
+}
+
+li{
+   padding: 0 12px;
+}
+
+img{
+   display: block;
+   margin: 0 auto;
+   border: 2px solid #00adb5
+}
