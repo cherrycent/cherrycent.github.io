@@ -1,17 +1,17 @@
 html{
-   font-size: 14px;
+   font-size: 1em;
    font-family:'Source-Han-Ligh10fdcb05f71c447';
    color: #393e46
 }
 
 h1{
-   font-size: 35px;
+   font-size: 3em;
    text-align: center;
 }
 
 p,li{
-   font-size: 14px;
-   line-heigh: 2;
+   font-size: 1em;
+   line-height: 2;
    letter-spacing: 1px;
 }
 
@@ -20,6 +20,7 @@ html{
 }
 
 body{
+   font-size: 12px;
    width: 600px;
    margin: 0 auto;
    background-color: #eeeeee;
@@ -33,7 +34,7 @@ h1{
    text-shadow: 1px 1px 3px #222831;
 }
 
-p{
+p,dl{
    padding: 0 50px;
 }
 
