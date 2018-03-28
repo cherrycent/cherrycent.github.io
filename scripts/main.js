@@ -26,14 +26,14 @@ var myHeading = document.querySelector('h1');
 function setUserName(){
    var myName = prompt('告诉人家你的名字啦～');
    localStorage.setItem('name',myName);
-   myHeading.innerHTML = '陈鲤真帅，'+myName;
+   myHeading.innerHTML = '欢迎你，'+myName+'！';
 }
 
 if(!localStorage.getItem('name')){
    setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = '陈鲤真帅，'+storedName;
+  myHeading.innerHTML = '欢迎你，'+storedName+'！';
 }
 
 myButton.onclick = function(){
